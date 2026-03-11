@@ -6,9 +6,9 @@ This project focuses on building a robust machine learning pipeline to predict t
 The dataset originates from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to diagnostically predict whether or not a patient has diabetes based on specific medical indicators.
  
 ## Key Features Used:
-Diagnostic: Glucose, Blood Pressure, Insulin, BMI, Skin Thickness.
-Demographic: Age, Number of Pregnancies.
-History: Diabetes Pedigree Function.
+- Diagnostic: Glucose, Blood Pressure, Insulin, BMI, Skin Thickness.
+- Demographic: Age, Number of Pregnancies.
+- History: Diabetes Pedigree Function.
 
 ## Technical Workflow
 ### 1. Data Cleaning & Imputation
@@ -21,11 +21,11 @@ To move beyond default performance, I utilized RandomizedSearchCV for ensemble m
 
 ## Model Performance
 After testing and tuning multiple classification algorithms, the results were compared to identify the most reliable predictor:
-Model     Accuracy (%)
-XGBoost~75.00%
-Logistic Regression~74.07%
-SVM~71.30%
-Random Forest~70.37%
+- Model-- Accuracy (%)
+- XGBoost-75.00%
+- Logistic Regression-74.07%
+- SVM-71.30%
+- Random Forest-70.37%
 - Note: While accuracy is a primary metric, the project also focuses on Recall to minimize False Negatives, which is vital in a medical context.
 
 ## How to Use
